@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymClub.App", "GymClub.App\GymClub.App.csproj", "{9C19EC6C-30AD-4C3A-9354-1874ED852FC3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymClub.Domain", "GymClub.Domain\GymClub.Domain.csproj", "{7A712B00-3C23-469A-A8E1-6ACE17E8B6E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymClub.Shared", "GymClub.Shared\GymClub.Shared.csproj", "{8BB9640D-63B3-444A-9A9D-A5E7F49B1FB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymClub.Database", "GymClub.Database\GymClub.Database.csproj", "{BFA866B7-C08A-4084-80D9-D5B6026322C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{7A712B00-3C23-469A-A8E1-6ACE17E8B6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A712B00-3C23-469A-A8E1-6ACE17E8B6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A712B00-3C23-469A-A8E1-6ACE17E8B6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB9640D-63B3-444A-9A9D-A5E7F49B1FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB9640D-63B3-444A-9A9D-A5E7F49B1FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB9640D-63B3-444A-9A9D-A5E7F49B1FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB9640D-63B3-444A-9A9D-A5E7F49B1FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA866B7-C08A-4084-80D9-D5B6026322C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA866B7-C08A-4084-80D9-D5B6026322C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA866B7-C08A-4084-80D9-D5B6026322C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA866B7-C08A-4084-80D9-D5B6026322C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
