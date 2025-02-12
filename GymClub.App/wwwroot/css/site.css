@@ -66,3 +66,7 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+.text-velvet {
+    color: #8A2BE2 !important; /* Violet Color */
+}
